@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto | Exercícios</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body onload="verificandoNumeros()">
+    <div>
+        <header>
+            <section>
+                <h1>Vamos Praticar!</h1>
+
+                <p id="primNum">O 1° número escolhido foi: </p>
+                <p id="segNum">O 2° número escolhido foi: </p>
+
+                <h2>O tipo dos números!</h2>
+
+                <p id="tipoNum1">O tipo do 1° número é: </p>
+                <p id="tipoNum2">O tipo do 2° número é: </p>
+            
+                <h2>Cálculos com os números!</h2>
+                <p id="calcSoma"></p>
+                <p id="calcSubtra"></p>
+                <p id="calcMulti"></p>
+                <p id="calcDivi"></p>
+                <p id="calcPoten"></p>
+                <p id="calcReal"></p>
+            </section>
+            <input type="button" value="Calcular" onclick="calculos()">    
+            <input type="button" value="Sortear Número (0 a 100)" onclick="numAleatorio()">   
+        </header>
+    </div>
+
+    <footer>
+        <p id="footerPag">&copy; Direitos reservados por <span class="footerCopy">William Mendonça</span>.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+Criar um projeto de página 
+
+Operadores aritméticos -> + - * / ** %
+
+Operadores lógicos -> && || !
+
+Array.
+
+O usuário digitará 2 valores, e terei que fazer todos os cálculos. (Somente de 1 a 100)
+
+Escolher 1 número aleatório com Math.random() -> caso o usuário não queira escolher nenhum número.
+
+CSS incluso.
